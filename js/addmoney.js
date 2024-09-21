@@ -11,7 +11,6 @@ document
       const balance = document.getElementById("account-balance").innerText;
       const newBalace = parseInt(balance) + parseInt(addMoneyInput);
       //   console.log(newBalace);
-
       document.getElementById("account-balance").innerText = newBalace;
     } else {
       alert("Invalid pin number! Please try again");
